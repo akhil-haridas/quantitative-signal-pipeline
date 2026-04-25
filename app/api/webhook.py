@@ -7,6 +7,10 @@ router = APIRouter()
 
 @router.post("/webhook")
 def webhook(signal: Signal):
+
+    if signal.side not in ["BUY", "SELL"]:
+        raise HTTPException(status_code=400, detail="Invalid side")
+
     try:
         process_signal(signal)
         execute_signal(signal)
