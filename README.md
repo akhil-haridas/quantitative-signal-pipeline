@@ -118,7 +118,7 @@ GET /report
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/akhil-haridas/quantitative-signal-pipeline.git>
 cd quantitative-signal-pipeline
 ```
 
