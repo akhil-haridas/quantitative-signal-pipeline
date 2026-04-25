@@ -53,7 +53,7 @@ Implements a **9/21 EMA crossover strategy**:
 #### ▶️ Run Backtest
 
 ```bash
-python scripts/run_backtest.py
+python -m scripts.run_backtest
 ```
 
 #### 📁 Output
